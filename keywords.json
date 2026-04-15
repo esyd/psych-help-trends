@@ -1,0 +1,95 @@
+{
+  "_comment": "This file defines search terms for pre-registration on OSF. Do NOT run data collection before registering these keywords.",
+  "_version": "1.0",
+  "_last_updated": "2026-04-15",
+
+  "categories": {
+
+    "general_help_seeking": {
+      "description": "General terms for seeking psychological/mental health help",
+      "terms": {
+        "uk": [
+          "психологічна допомога",
+          "психотерапія",
+          "психолог онлайн",
+          "консультація психолога",
+          "психотерапевт",
+          "психічне здоров'я допомога",
+          "терапія онлайн"
+        ],
+        "ru": [
+          "психологическая помощь",
+          "психотерапия",
+          "психолог онлайн",
+          "консультация психолога"
+        ],
+        "en": [
+          "psychotherapy",
+          "psychological help",
+          "mental health support",
+          "therapist online",
+          "find a therapist"
+        ]
+      }
+    },
+
+    "evidence_based_treatments": {
+      "description": "Evidence-based psychological treatment methods",
+      "terms": {
+        "uk": [
+          "КПТ терапія",
+          "когнітивно-поведінкова терапія",
+          "EMDR терапія",
+          "DBT терапія",
+          "ACT терапія",
+          "терапія прийняття та відповідальності",
+          "діалектична поведінкова терапія",
+          "психодинамічна терапія"
+        ],
+        "ru": [
+          "КПТ терапия",
+          "когнитивно-поведенческая терапия",
+          "EMDR терапия",
+          "ДБТ терапия"
+        ],
+        "en": [
+          "CBT therapy",
+          "cognitive behavioral therapy",
+          "EMDR therapy",
+          "DBT therapy",
+          "ACT therapy",
+          "acceptance and commitment therapy",
+          "dialectical behavior therapy",
+          "psychodynamic therapy"
+        ]
+      }
+    },
+
+    "specific_conditions": {
+      "description": "Help-seeking for specific mental health conditions",
+      "terms": {
+        "uk": [
+          "допомога при тривозі",
+          "лікування депресії",
+          "ПТСР лікування",
+          "допомога при панічних атаках",
+          "лікування ОКР",
+          "ПТСР терапія"
+        ],
+        "ru": [
+          "помощь при тревоге",
+          "лечение депрессии",
+          "ПТСР лечение",
+          "паническая атака помощь"
+        ],
+        "en": [
+          "anxiety treatment",
+          "depression therapy",
+          "PTSD treatment",
+          "panic attack help",
+          "OCD therapy"
+        ]
+      }
+    }
+  }
+}
