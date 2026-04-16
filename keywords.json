@@ -1,93 +1,325 @@
 {
   "_comment": "This file defines search terms for pre-registration on OSF. Do NOT run data collection before registering these keywords.",
-  "_version": "1.0",
-  "_last_updated": "2026-04-15",
+  "_version": "3.0",
+  "_last_updated": "2026-04-16",
+
+  "_scope": "Adults with anxiety and depressive disorders, trauma-related disorders (PTSD, complex PTSD), and personality disorders.",
+
+  "_language_notes": {
+    "latin_abbrev": "Latin abbreviations and full English names used for ALL countries — internationally recognizable and used as-is in many languages.",
+    "local_language_limitation": "Local languages for Group B countries (except Russian) are NOT included due to inability to verify translations. Russian is used as lingua franca for post-Soviet non-EU countries.",
+    "verified_languages": ["uk", "ru", "en", "de", "fr", "pl", "nl", "lv", "lt", "et", "latin_abbrev"]
+  },
 
   "categories": {
 
     "general_help_seeking": {
-      "description": "General terms for seeking psychological/mental health help",
+      "description": "General terms for seeking psychological/mental health help in adults",
       "terms": {
+        "latin_abbrev": [],
         "uk": [
           "психологічна допомога",
           "психотерапія",
           "психолог онлайн",
           "консультація психолога",
           "психотерапевт",
-          "психічне здоров'я допомога",
-          "терапія онлайн"
+          "психічне здоров'я"
         ],
         "ru": [
           "психологическая помощь",
           "психотерапия",
           "психолог онлайн",
-          "консультация психолога"
+          "консультация психолога",
+          "психотерапевт"
         ],
         "en": [
           "psychotherapy",
           "psychological help",
           "mental health support",
-          "therapist online",
-          "find a therapist"
+          "find a therapist",
+          "online therapy"
+        ],
+        "de": [
+          "Psychotherapie",
+          "psychologische Hilfe",
+          "Therapeut online",
+          "psychische Gesundheit Hilfe"
+        ],
+        "fr": [
+          "psychothérapie",
+          "aide psychologique",
+          "thérapeute en ligne",
+          "santé mentale aide"
+        ],
+        "pl": [
+          "psychoterapia",
+          "pomoc psychologiczna",
+          "psycholog online",
+          "terapeuta online"
+        ],
+        "nl": [
+          "psychotherapie",
+          "psychologische hulp",
+          "therapeut online",
+          "geestelijke gezondheid hulp"
+        ],
+        "lv": [
+          "psihoterapija",
+          "psiholoģiskā palīdzība",
+          "psihologs tiešsaistē"
+        ],
+        "lt": [
+          "psichoterapija",
+          "psichologinė pagalba",
+          "psichologas internetu"
+        ],
+        "et": [
+          "psühhoteraapia",
+          "psühholoogiline abi",
+          "psühholoog veebis"
         ]
       }
     },
 
     "evidence_based_treatments": {
-      "description": "Evidence-based psychological treatment methods",
+      "description": "Evidence-based psychological treatments for anxiety, depressive, trauma-related, and personality disorders in adults",
       "terms": {
+
+        "latin_abbrev": [
+          "CBT", "CBT therapy",
+          "EMDR", "EMDR therapy",
+          "DBT", "DBT therapy",
+          "ACT", "ACT therapy",
+          "CPT", "CPT therapy",
+          "prolonged exposure therapy",
+          "IPT", "IPT therapy",
+          "MBCT",
+          "MBSR",
+          "schema therapy"
+        ],
+
         "uk": [
-          "КПТ терапія",
-          "когнітивно-поведінкова терапія",
-          "EMDR терапія",
-          "DBT терапія",
-          "ACT терапія",
+          "когнітивно-поведінкова терапія", "КПТ",
+          "EMDR терапія", "десенсибілізація та переробка рухами очей",
+          "діалектично-поведінкова терапія", "ДПТ",
           "терапія прийняття та відповідальності",
-          "діалектична поведінкова терапія",
-          "психодинамічна терапія"
+          "когнітивна терапія опрацювання травми",
+          "пролонгована експозиція",
+          "інтерперсональна терапія",
+          "майндфулнес-базована когнітивна терапія",
+          "майндфулнес-базоване зниження стресу",
+          "схема-терапія"
         ],
+
         "ru": [
-          "КПТ терапия",
-          "когнитивно-поведенческая терапия",
-          "EMDR терапия",
-          "ДБТ терапия"
+          "когнитивно-поведенческая терапия", "КПТ",
+          "EMDR терапия", "десенсибилизация и переработка движениями глаз",
+          "диалектическая поведенческая терапия", "ДПТ",
+          "терапия принятия и ответственности",
+          "когнитивная терапия переработки травмы",
+          "пролонгированная экспозиция",
+          "интерперсональная терапия",
+          "майндфулнес-когнитивная терапия",
+          "снижение стресса на основе осознанности",
+          "схема-терапия"
         ],
+
         "en": [
-          "CBT therapy",
           "cognitive behavioral therapy",
-          "EMDR therapy",
-          "DBT therapy",
-          "ACT therapy",
-          "acceptance and commitment therapy",
+          "eye movement desensitization and reprocessing",
           "dialectical behavior therapy",
-          "psychodynamic therapy"
+          "acceptance and commitment therapy",
+          "cognitive processing therapy",
+          "prolonged exposure therapy",
+          "interpersonal therapy",
+          "mindfulness-based cognitive therapy",
+          "mindfulness-based stress reduction",
+          "schema therapy"
+        ],
+
+        "de": [
+          "kognitive Verhaltenstherapie",
+          "EMDR Therapie", "Desensibilisierung und Verarbeitung durch Augenbewegungen",
+          "Dialektisch-Behaviorale Therapie",
+          "Akzeptanz- und Commitment-Therapie",
+          "Kognitive Verarbeitungstherapie",
+          "Prolongierte Exposition",
+          "Interpersonelle Therapie",
+          "Achtsamkeitsbasierte kognitive Therapie",
+          "Achtsamkeitsbasierte Stressreduktion",
+          "Schematherapie"
+        ],
+
+        "fr": [
+          "thérapie cognitive et comportementale",
+          "thérapie EMDR", "désensibilisation et retraitement par les mouvements oculaires",
+          "thérapie comportementale dialectique",
+          "thérapie d'acceptation et d'engagement",
+          "thérapie de traitement cognitif",
+          "exposition prolongée",
+          "thérapie interpersonnelle",
+          "thérapie cognitive basée sur la pleine conscience",
+          "réduction du stress basée sur la pleine conscience",
+          "thérapie des schémas"
+        ],
+
+        "pl": [
+          "terapia poznawczo-behawioralna",
+          "terapia EMDR", "odwrażliwianie i przetwarzanie za pomocą ruchu gałek ocznych",
+          "terapia dialektyczno-behawioralna",
+          "terapia akceptacji i zaangażowania",
+          "terapia przetwarzania poznawczego",
+          "przedłużona ekspozycja",
+          "terapia interpersonalna",
+          "terapia poznawcza oparta na uważności",
+          "redukcja stresu oparta na uważności",
+          "terapia schematów"
+        ],
+
+        "nl": [
+          "cognitieve gedragstherapie",
+          "EMDR therapie", "desensitisatie en herverwerking door oogbewegingen",
+          "dialectische gedragstherapie",
+          "acceptatie- en commitment-therapie",
+          "cognitieve verwerkingstherapie",
+          "langdurige blootstelling",
+          "interpersoonlijke therapie",
+          "mindfulnessgebaseerde cognitieve therapie",
+          "mindfulnessgebaseerde stressreductie",
+          "schematherapie"
+        ],
+
+        "lv": [
+          "kognitīvi biheiviorālā terapija",
+          "EMDR terapija",
+          "dialektiskā uzvedības terapija",
+          "pieņemšanas un apņemšanās terapija",
+          "kognitīvā traumas apstrādes terapija",
+          "pagarinātā ekspozīcija",
+          "starppersonu terapija",
+          "uz apzinātību balstīta kognitīvā terapija",
+          "uz apzinātību balstīta stresa mazināšana",
+          "shēmu terapija"
+        ],
+
+        "lt": [
+          "kognityvinė elgesio terapija",
+          "EMDR terapija",
+          "dialektinė elgesio terapija",
+          "priėmimo ir įsipareigojimo terapija",
+          "kognityvinė traumos apdorojimo terapija",
+          "ilgalaikė ekspozicija",
+          "tarpasmeninė terapija",
+          "sąmoningumu grįsta kognityvinė terapija",
+          "sąmoningumu grįstas streso mažinimas",
+          "schemų terapija"
+        ],
+
+        "et": [
+          "kognitiivne käitumisteraapia",
+          "EMDR teraapia",
+          "dialektiline käitumisteraapia",
+          "aktsepteerimis- ja pühendumisteraapia",
+          "kognitiivne trauma töötlemise teraapia",
+          "pikaajaline kokkupuude",
+          "inimestevahelise suhte teraapia",
+          "teadvelolekupõhine kognitiivne teraapia",
+          "teadvelolekupõhine stressivähendamine",
+          "skeemiteraapia"
         ]
       }
     },
 
     "specific_conditions": {
-      "description": "Help-seeking for specific mental health conditions",
+      "description": "Help-seeking for specific mental health conditions in adults: anxiety, depression, PTSD, personality disorders",
       "terms": {
+        "latin_abbrev": [
+          "PTSD treatment",
+          "PTSD therapy",
+          "complex PTSD treatment",
+          "borderline personality disorder treatment",
+          "BPD therapy"
+        ],
         "uk": [
           "допомога при тривозі",
           "лікування депресії",
           "ПТСР лікування",
-          "допомога при панічних атаках",
-          "лікування ОКР",
-          "ПТСР терапія"
+          "комплексний ПТСР",
+          "панічні атаки допомога",
+          "розлад особистості лікування",
+          "прикордонний розлад особистості"
         ],
         "ru": [
           "помощь при тревоге",
           "лечение депрессии",
           "ПТСР лечение",
-          "паническая атака помощь"
+          "комплексное ПТСР",
+          "паническая атака помощь",
+          "расстройство личности лечение",
+          "пограничное расстройство личности"
         ],
         "en": [
           "anxiety treatment",
           "depression therapy",
           "PTSD treatment",
+          "complex PTSD treatment",
           "panic attack help",
-          "OCD therapy"
+          "personality disorder treatment",
+          "borderline personality disorder therapy"
+        ],
+        "de": [
+          "Angstbehandlung",
+          "Depressionstherapie",
+          "PTBS Behandlung",
+          "komplexe PTBS",
+          "Panikattacke Hilfe",
+          "Persönlichkeitsstörung Behandlung",
+          "Borderline-Persönlichkeitsstörung Therapie"
+        ],
+        "fr": [
+          "traitement anxiété",
+          "thérapie dépression",
+          "traitement PTSD",
+          "PTSD complexe",
+          "aide attaque de panique",
+          "traitement trouble de la personnalité",
+          "trouble de la personnalité borderline"
+        ],
+        "pl": [
+          "leczenie lęku",
+          "terapia depresji",
+          "leczenie PTSD",
+          "złożone PTSD",
+          "pomoc atak paniki",
+          "leczenie zaburzeń osobowości",
+          "borderline terapia"
+        ],
+        "nl": [
+          "angstbehandeling",
+          "depressietherapie",
+          "PTSS behandeling",
+          "complexe PTSS",
+          "paniekaanval hulp",
+          "persoonlijkheidsstoornis behandeling",
+          "borderline persoonlijkheidsstoornis therapie"
+        ],
+        "lv": [
+          "trauksmes ārstēšana",
+          "depresijas terapija",
+          "PTSS ārstēšana",
+          "personības traucējumu ārstēšana"
+        ],
+        "lt": [
+          "nerimo gydymas",
+          "depresijos terapija",
+          "PTSS gydymas",
+          "asmenybės sutrikimo gydymas"
+        ],
+        "et": [
+          "ärevuse ravi",
+          "depressiooni teraapia",
+          "PTSD ravi",
+          "isiksushäire ravi"
         ]
       }
     }
