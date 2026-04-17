@@ -34,7 +34,7 @@ The level of search activity for psychological help and evidence-based treatment
 ## Pre-registration
 
 This study is pre-registered on OSF before any data collection.  
-🔗 *[OSF link — to be added after registration]*
+🔗 *[OSF link — https://osf.io/7986u]*
 
 **What is pre-registered:**
 - `keywords.json` — full list of search terms by category and language
