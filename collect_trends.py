@@ -18,7 +18,7 @@ import time
 import logging
 import hashlib
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timezone
 
 import pandas as pd
 from pytrends.request import TrendReq
@@ -53,10 +53,21 @@ def file_hash(path: str) -> str:
     return h.hexdigest()
 
 
+def get_all_countries() -> dict:
+    """
+    Returns a flat dict {country_code: languages} from config.COUNTRIES.
+    """
+    result = {}
+    for group in config.COUNTRIES.values():
+        for code, info in group.items():
+            result[code] = info["languages"]
+    return result
+
+
 def flatten_terms(categories: dict, languages: list) -> list[dict]:
     """
     Returns a flat list of {category, language, term} dicts
-    for all combinations in the config.
+    for given languages.
     """
     result = []
     for cat_name, cat_data in categories.items():
@@ -128,19 +139,22 @@ def collect_related_queries(
 # ── Main ───────────────────────────────────────────────────────────────────────
 
 def main():
-    timestamp = datetime.utcnow().strftime("%Y%m%d_%H%M%S")
+    timestamp = datetime.now(timezone.utc).strftime("%Y%m%d_%H%M%S")
     out_dir = Path(config.OUTPUT_DIR) / f"raw_{timestamp}"
     out_dir.mkdir(parents=True, exist_ok=True)
     log.info(f"Output directory: {out_dir}")
+
+    # ── Get all countries and their languages ──────────────────────────────────
+    all_countries = get_all_countries()
+    log.info(f"Total countries to collect: {len(all_countries)}")
 
     # ── Save metadata ──────────────────────────────────────────────────────────
     metadata = {
         "collection_timestamp_utc": timestamp,
         "config": {
-            "geo_primary": config.GEO_PRIMARY,
-            "geo_comparison": config.GEO_COMPARISON,
+            "countries": all_countries,
+            "excluded_countries": config.EXCLUDED_COUNTRIES,
             "timeframe": config.TIMEFRAME,
-            "languages": config.LANGUAGES,
             "trends_category": config.TRENDS_CATEGORY,
             "trends_gprop": config.TRENDS_GPROP,
         },
@@ -155,22 +169,21 @@ def main():
 
     # ── Load keywords ──────────────────────────────────────────────────────────
     categories = load_keywords("keywords.json")
-    flat_terms = flatten_terms(categories, config.LANGUAGES)
-    log.info(f"Total terms to collect: {len(flat_terms)}")
 
     # ── Init pytrends ──────────────────────────────────────────────────────────
     pytrends = TrendReq(hl="uk", tz=120, timeout=(10, 25), retries=3, backoff_factor=0.5)
 
-    # ── Collect for primary geo ────────────────────────────────────────────────
-    all_geos = [config.GEO_PRIMARY] + config.GEO_COMPARISON
-
-    for geo in all_geos:
-        log.info(f"=== Collecting for GEO: {geo} ===")
+    # ── Collect for each country ───────────────────────────────────────────────
+    for geo, languages in all_countries.items():
+        log.info(f"=== Collecting for GEO: {geo} | languages: {languages} ===")
         geo_dir = out_dir / geo
         geo_dir.mkdir(exist_ok=True)
 
-        # Group by category + language (max 5 terms per request)
-        from itertools import groupby
+        # Flatten terms for this country's languages
+        flat_terms = flatten_terms(categories, languages)
+        log.info(f"  Total terms for {geo}: {len(flat_terms)}")
+
+        # Group by category + language
         grouped = {}
         for item in flat_terms:
             key = (item["category"], item["language"])
@@ -203,7 +216,6 @@ def main():
                     if related:
                         rq_fname = f"{cat_name}__{lang}__related.json"
                         with open(geo_dir / rq_fname, "w", encoding="utf-8") as f:
-                            # Convert DataFrames to JSON-serializable format
                             serializable = {}
                             for term, data in related.items():
                                 serializable[term] = {
