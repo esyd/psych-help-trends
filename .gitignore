@@ -7,9 +7,6 @@ venv/
 .venv/
 env/
 
-# Data (not committed — too large, reproduced via collect_trends.py)
-data/
-
 # Logs
 *.log
 
@@ -21,5 +18,17 @@ Thumbs.db
 .vscode/
 .idea/
 
+
 # OSF
 OSF_REGISTRATION.md
+
+doc/
+
+
+# Data (not committed ï¿½ too large, reproduced via collect_trends.py)
+data/raw*/
+data/processed/
+
+# But keep predictors
+!data/predictors/
+!data/predictors/*.csv
