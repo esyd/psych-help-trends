@@ -25,7 +25,7 @@ This study is pre-registered on OSF before any data collection.
 ⚠️ **`collect_trends.py` was NOT run before OSF registration.**  
 File hashes in `data/raw_<timestamp>/metadata.json` confirm that `keywords.json` and `config.py` were not modified after registration.
 
-**OSF Amendment (filed 2026-04-28 — before data analysis):**  
+**OSF Amendment (filed [date] — before data analysis):**  
 Six amendments were filed prior to data analysis:
 1. H3 method revised: multiple regression → Kruskal-Wallis + Spearman + exploratory simple linear regression (N=21 insufficient for multiple regression)
 2. Country group role clarified: descriptive only, not used as analytical factor
@@ -134,12 +134,18 @@ psych-help-trends/
 │   └── predictors/            # H3 predictor data (committed to git)
 │       └── H3_predictors.csv  # WHO Atlas, World Bank, SCImago, Pew Research
 │
-└── analysis/                  # Analysis notebooks (with inline comments)
-    ├── 01_data_overview.ipynb             # Data quality and overview
-    ├── 02_H2a_absolute_trend.ipynb        # H2a: absolute trend in EBT searches
-    ├── 03_H2b_EBT_ratio.ipynb            # H2b: relative growth of EBT searches
-    ├── 04_H1_ITS_Ukraine.ipynb           # H1: ITS analysis for Ukraine
-    └── 05_H3_cross_national.ipynb        # H3: cross-national analysis
+├── analysis/                  # Analysis notebooks (with inline comments)
+│   ├── 01_data_overview.ipynb             # Data quality and overview
+│   ├── 02_H2a_absolute_trend.ipynb        # H2a: absolute trend in EBT searches
+│   ├── 03_H2b_EBT_ratio.ipynb            # H2b: relative growth of EBT searches
+│   ├── 04_H1_ITS_Ukraine.ipynb           # H1: ITS analysis for Ukraine
+│   ├── 05_H3_cross_national.ipynb        # H3: cross-national analysis
+│   └── 06_exploratory_Q4_2025.ipynb      # Exploratory: Q4 2025 RSV spike (post-hoc)
+│
+└── results/                   # Output tables and figures
+    ├── Table1_summary.html                # Summary of hypothesis testing results
+    ├── Table2_H1_ITS.html                 # Detailed ITS results for Ukraine
+    └── exploratory_Q4_2025/              # Q4 2025 exploratory analysis outputs
 ```
 
 ---
@@ -187,6 +193,7 @@ python collect_trends.py
 # analysis/03_H2b_EBT_ratio.ipynb
 # analysis/04_H1_ITS_Ukraine.ipynb
 # analysis/05_H3_cross_national.ipynb
+# analysis/06_exploratory_Q4_2025.ipynb  (post-hoc exploratory, optional)
 ```
 
 ---

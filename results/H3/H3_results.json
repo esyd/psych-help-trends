@@ -1,0 +1,218 @@
+{
+  "hypothesis": "H3",
+  "category": "evidence_based_treatments",
+  "n_countries": 21,
+  "alpha": 0.05,
+  "alpha_bonferroni_spearman": 0.0125,
+  "analysis_note": "Kruskal-Wallis + Spearman = main; simple linear regression = exploratory",
+  "gt_artifact_note": "Sensitivity with pre-2022 data included (Myburgh 2022)",
+  "kruskal_wallis": {
+    "H": 2.7758,
+    "p": 0.2496,
+    "significant": false,
+    "groups_n": {
+      "focal": 1,
+      "group_a": 11,
+      "group_b": 9
+    },
+    "groups_median": {
+      "focal": 29.812,
+      "group_a": 31.992,
+      "group_b": 27.085
+    }
+  },
+  "mann_whitney": {
+    "focal_vs_group_a": {
+      "U": 4.0,
+      "p": 0.8333,
+      "significant": false
+    },
+    "focal_vs_group_b": {
+      "U": 6.0,
+      "p": 0.8,
+      "significant": false
+    },
+    "group_a_vs_group_b": {
+      "U": 71.0,
+      "p": 0.1106,
+      "significant": false
+    }
+  },
+  "spearman": {
+    "who_atlas_score": {
+      "label": "WHO Atlas",
+      "rho": NaN,
+      "p": NaN,
+      "significant": false,
+      "direction": "-"
+    },
+    "gdp_log": {
+      "label": "GDP (log)",
+      "rho": 0.2091,
+      "p": 0.363,
+      "significant": false,
+      "direction": "+"
+    },
+    "sci_log": {
+      "label": "SciOutput (log)",
+      "rho": 0.361,
+      "p": 0.1078,
+      "significant": false,
+      "direction": "+"
+    },
+    "pew_religiosity": {
+      "label": "Religiosity",
+      "rho": -0.2377,
+      "p": 0.2996,
+      "significant": false,
+      "direction": "-"
+    }
+  },
+  "spearman_pre2022_sensitivity": {
+    "who_atlas_score": {
+      "rho": 0.1757,
+      "p": 0.6511,
+      "significant": false
+    },
+    "gdp_log": {
+      "rho": 0.3532,
+      "p": 0.1162,
+      "significant": false
+    },
+    "sci_log": {
+      "rho": 0.3974,
+      "p": 0.0744,
+      "significant": false
+    },
+    "pew_religiosity": {
+      "rho": -0.3532,
+      "p": 0.1162,
+      "significant": false
+    }
+  },
+  "kw_pre2022_sensitivity": {
+    "H": 3.6857,
+    "p": 0.1584,
+    "significant": false
+  },
+  "simple_linear_regression_exploratory": {
+    "who_atlas_score": {
+      "label": "WHO Atlas",
+      "n": 9,
+      "beta1": 0.416,
+      "beta1_ci": [
+        -0.7349,
+        1.5669
+      ],
+      "p_value": 0.421,
+      "r_squared": 0.0945,
+      "shapiro_wilk_p": 0.0389,
+      "significant": false,
+      "influential_countries": []
+    },
+    "gdp_log": {
+      "label": "GDP (log)",
+      "n": 21,
+      "beta1": 4.1224,
+      "beta1_ci": [
+        -1.7451,
+        9.9899
+      ],
+      "p_value": 0.1578,
+      "r_squared": 0.1022,
+      "shapiro_wilk_p": 0.8969,
+      "significant": false,
+      "influential_countries": [
+        "MD",
+        "UZ",
+        "AZ"
+      ]
+    },
+    "sci_log": {
+      "label": "SciOutput (log)",
+      "n": 21,
+      "beta1": 3.4791,
+      "beta1_ci": [
+        0.2132,
+        6.7449
+      ],
+      "p_value": 0.038,
+      "r_squared": 0.2074,
+      "shapiro_wilk_p": 0.6809,
+      "significant": true,
+      "influential_countries": [
+        "MD",
+        "AZ"
+      ]
+    },
+    "pew_religiosity": {
+      "label": "Religiosity",
+      "n": 21,
+      "beta1": -0.0827,
+      "beta1_ci": [
+        -0.2125,
+        0.0471
+      ],
+      "p_value": 0.1983,
+      "r_squared": 0.0855,
+      "shapiro_wilk_p": 0.706,
+      "significant": false,
+      "influential_countries": [
+        "MD",
+        "JP",
+        "AZ"
+      ]
+    }
+  },
+  "sensitivity_outliers_excluded": {
+    "gdp_log": {
+      "label": "GDP (log) (excl. ['MD', 'UZ', 'AZ'])",
+      "n": 18,
+      "beta1": 1.2441,
+      "beta1_ci": [
+        -4.0555,
+        6.5437
+      ],
+      "p_value": 0.6255,
+      "r_squared": 0.0152,
+      "shapiro_wilk_p": 0.5465,
+      "significant": false,
+      "influential_countries": [
+        "EE"
+      ]
+    },
+    "sci_log": {
+      "label": "SciOutput (log) (excl. ['MD', 'AZ'])",
+      "n": 19,
+      "beta1": 3.8219,
+      "beta1_ci": [
+        0.9832,
+        6.6606
+      ],
+      "p_value": 0.0113,
+      "r_squared": 0.3219,
+      "shapiro_wilk_p": 0.4982,
+      "significant": true,
+      "influential_countries": [
+        "KZ"
+      ]
+    },
+    "pew_religiosity": {
+      "label": "Religiosity (excl. ['MD', 'JP', 'AZ'])",
+      "n": 18,
+      "beta1": -0.129,
+      "beta1_ci": [
+        -0.2296,
+        -0.0283
+      ],
+      "p_value": 0.0152,
+      "r_squared": 0.3157,
+      "shapiro_wilk_p": 0.9971,
+      "significant": true,
+      "influential_countries": [
+        "EE",
+        "JP"
+      ]
+    }
+  }
+}

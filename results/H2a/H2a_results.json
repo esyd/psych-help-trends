@@ -1,0 +1,34 @@
+{
+  "hypothesis": "H2a",
+  "category": "evidence_based_treatments",
+  "n_months": 96,
+  "n_countries": 21,
+  "excluded_countries": {},
+  "ols": {
+    "beta0": 21.5771,
+    "beta1": 0.1364,
+    "beta1_ci_lower": 0.1112,
+    "beta1_ci_upper": 0.1616,
+    "p_value": 0.0,
+    "r_squared": 0.5515,
+    "significant": true
+  },
+  "assumptions": {
+    "shapiro_wilk_stat": 0.8582,
+    "shapiro_wilk_p": 0.0,
+    "normality_ok": false,
+    "breusch_pagan_stat": 3.0106,
+    "breusch_pagan_p": 0.0827,
+    "homoscedasticity_ok": true,
+    "assumptions_met": false
+  },
+  "mann_kendall": {
+    "trend": "increasing",
+    "tau": 0.5996,
+    "p_value": 0.0,
+    "z": 8.6506,
+    "significant": true
+  },
+  "primary_method": "Mann-Kendall",
+  "alpha_bonferroni": 0.016666666666666666
+}

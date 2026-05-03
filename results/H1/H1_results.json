@@ -1,0 +1,201 @@
+{
+  "hypothesis": "H1",
+  "country": "UA",
+  "breakpoint": "2022-02-01",
+  "alpha_bonferroni": 0.016666666666666666,
+  "categories": {
+    "general_help_seeking": {
+      "n": 96,
+      "method": "OLS + Newey-West HAC",
+      "autocorrelation_detected": true,
+      "durbin_watson": 1.2311,
+      "params": {
+        "beta0": 16.9716,
+        "beta1_trend": 0.1831,
+        "beta2_level": -4.1489,
+        "beta3_slope": 0.0605
+      },
+      "pvalues": {
+        "beta1_trend": 0.0,
+        "beta2_level": 0.0093,
+        "beta3_slope": 0.3306
+      },
+      "ci": {
+        "beta2_level": [
+          -7.2751,
+          -1.0227
+        ],
+        "beta3_slope": [
+          -0.0614,
+          0.1824
+        ]
+      },
+      "r_squared": 0.6678,
+      "significant_level_change": true,
+      "significant_slope_change": false
+    },
+    "evidence_based_treatments": {
+      "n": 96,
+      "method": "OLS + Newey-West HAC",
+      "autocorrelation_detected": true,
+      "durbin_watson": 1.1469,
+      "params": {
+        "beta0": 27.3397,
+        "beta1_trend": -0.2158,
+        "beta2_level": -2.4824,
+        "beta3_slope": 1.1412
+      },
+      "pvalues": {
+        "beta1_trend": 0.0,
+        "beta2_level": 0.1687,
+        "beta3_slope": 0.0
+      },
+      "ci": {
+        "beta2_level": [
+          -6.0171,
+          1.0524
+        ],
+        "beta3_slope": [
+          0.9962,
+          1.2863
+        ]
+      },
+      "r_squared": 0.9009,
+      "significant_level_change": false,
+      "significant_slope_change": true
+    },
+    "specific_conditions": {
+      "n": 96,
+      "method": "OLS",
+      "autocorrelation_detected": false,
+      "durbin_watson": 1.674,
+      "params": {
+        "beta0": 33.232,
+        "beta1_trend": 0.4782,
+        "beta2_level": -4.4183,
+        "beta3_slope": -0.7198
+      },
+      "pvalues": {
+        "beta1_trend": 0.0005,
+        "beta2_level": 0.4154,
+        "beta3_slope": 0.0004
+      },
+      "ci": {
+        "beta2_level": [
+          -15.1447,
+          6.308
+        ],
+        "beta3_slope": [
+          -1.107,
+          -0.3326
+        ]
+      },
+      "r_squared": 0.1477,
+      "significant_level_change": false,
+      "significant_slope_change": true
+    }
+  },
+  "adf_results": {
+    "general_help_seeking": {
+      "adf_stat": -0.1209,
+      "adf_p": 0.9473,
+      "stationary": false,
+      "critical_values": {
+        "1%": -3.5097,
+        "5%": -2.8962,
+        "10%": -2.5853
+      }
+    },
+    "evidence_based_treatments": {
+      "adf_stat": 2.0057,
+      "adf_p": 0.9987,
+      "stationary": false,
+      "critical_values": {
+        "1%": -3.5043,
+        "5%": -2.8939,
+        "10%": -2.584
+      }
+    },
+    "specific_conditions": {
+      "adf_stat": -7.1365,
+      "adf_p": 0.0,
+      "stationary": true,
+      "critical_values": {
+        "1%": -3.5011,
+        "5%": -2.8925,
+        "10%": -2.5833
+      }
+    }
+  },
+  "sensitivity_analysis": {
+    "2022-01-01": {
+      "general_help_seeking": {
+        "beta2_level": -4.2852,
+        "p_beta2": 0.0056,
+        "beta3_slope": 0.0496,
+        "p_beta3": 0.4011,
+        "significant": true
+      },
+      "evidence_based_treatments": {
+        "beta2_level": -2.5466,
+        "p_beta2": 0.1288,
+        "beta3_slope": 1.1355,
+        "p_beta3": 0.0,
+        "significant": true
+      },
+      "specific_conditions": {
+        "beta2_level": -4.2503,
+        "p_beta2": 0.4325,
+        "beta3_slope": -0.7317,
+        "p_beta3": 0.0003,
+        "significant": true
+      }
+    },
+    "2022-03-01": {
+      "general_help_seeking": {
+        "beta2_level": -4.1442,
+        "p_beta2": 0.0114,
+        "beta3_slope": 0.0713,
+        "p_beta3": 0.2887,
+        "significant": true
+      },
+      "evidence_based_treatments": {
+        "beta2_level": -1.906,
+        "p_beta2": 0.3431,
+        "beta3_slope": 1.1466,
+        "p_beta3": 0.0,
+        "significant": true
+      },
+      "specific_conditions": {
+        "beta2_level": -7.666,
+        "p_beta2": 0.1572,
+        "beta3_slope": -0.6982,
+        "p_beta3": 0.0005,
+        "significant": true
+      }
+    },
+    "2022-04-01": {
+      "general_help_seeking": {
+        "beta2_level": -2.9993,
+        "p_beta2": 0.0738,
+        "beta3_slope": 0.0771,
+        "p_beta3": 0.298,
+        "significant": false
+      },
+      "evidence_based_treatments": {
+        "beta2_level": -0.1412,
+        "p_beta2": 0.9428,
+        "beta3_slope": 1.1457,
+        "p_beta3": 0.0,
+        "significant": true
+      },
+      "specific_conditions": {
+        "beta2_level": -7.7665,
+        "p_beta2": 0.1534,
+        "beta3_slope": -0.6791,
+        "p_beta3": 0.0008,
+        "significant": true
+      }
+    }
+  }
+}

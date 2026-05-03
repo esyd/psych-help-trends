@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  body { font-family: 'Times New Roman', serif; font-size: 11pt; margin: 40px; color: #000; }
+  h3 { font-size: 11pt; font-weight: bold; margin-bottom: 4px; }
+  p.note { font-size: 9pt; margin-top: 6px; }
+  table { border-collapse: collapse; width: 100%; margin-top: 8px; }
+  th { border-top: 2px solid #000; border-bottom: 1px solid #000; padding: 5px 8px; text-align: left; font-weight: bold; font-size: 10pt; vertical-align: bottom; }
+  td { border: none; padding: 4px 8px; font-size: 10pt; vertical-align: top; }
+  tr:last-child td { border-bottom: 2px solid #000; }
+  .supported { font-weight: normal; }
+  .indent { padding-left: 16px; }
+</style>
+</head>
+<body>
+
+<h3>Table 1. Summary of hypothesis testing results</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="width:8%">Hypothesis</th>
+      <th style="width:20%">Description</th>
+      <th style="width:15%">Method</th>
+      <th style="width:35%">Key results</th>
+      <th style="width:10%">Outcome</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>H1</b></td>
+      <td>Significant break in Ukrainian search activity in February 2022</td>
+      <td>ITS segmented regression (OLS + Newey-West HAC)</td>
+      <td>
+        General help-seeking: significant level decrease (β₂=−4·15, p=0·009)<br>
+        Evidence-based treatments: significant slope increase (β₃=+1·14, p&lt;0·001)<br>
+        Specific conditions: significant slope decrease (β₃=−0·72, p&lt;0·001)
+      </td>
+      <td>Supported (all three categories)</td>
+    </tr>
+    <tr>
+      <td><b>H2a</b></td>
+      <td>Absolute increase in EBT search activity over time across countries</td>
+      <td>Mann-Kendall trend test (OLS assumptions violated)</td>
+      <td>Significant monotonic increasing trend (τ=+0·600, p&lt;0·001)</td>
+      <td>Supported</td>
+    </tr>
+    <tr>
+      <td><b>H2b</b></td>
+      <td>Relative increase in EBT searches vs general help-seeking over time</td>
+      <td>Mann-Kendall trend test (OLS assumptions violated)</td>
+      <td>No significant trend in EBT ratio (τ=−0·104, p=0·136); 6 countries excluded (&gt;20% missing)</td>
+      <td>Not supported</td>
+    </tr>
+    <tr>
+      <td><b>H3</b></td>
+      <td>Cross-national differences in search activity associated with system-level predictors</td>
+      <td>Spearman correlations (primary); simple linear regression (exploratory)</td>
+      <td>
+        All Spearman correlations ns (ρ range: −0·238 to +0·361)<br>
+        Exploratory regression: SciOutput significant (β=+3·48, p=0·038, R²=0·207)<br>
+        Religiosity significant after outlier exclusion (β=−0·129, p=0·015, R²=0·316)
+      </td>
+      <td>Not supported (primary); partial support (exploratory)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p class="note">EBT = evidence-based treatments; ITS = interrupted time series; OLS = ordinary least squares; HAC = heteroscedasticity and autocorrelation consistent; ns = not significant. Bonferroni-corrected α=0·017 applied for H1 and H2 (three keyword categories). α=0·013 applied for H3 Spearman correlations (four predictors). SciOutput = psychology publications per 1 million population (SCImago, 2023).</p>
+
+</body>
+</html>
