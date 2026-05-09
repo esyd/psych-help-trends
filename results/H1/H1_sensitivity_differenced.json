@@ -1,0 +1,95 @@
+{
+  "description": "Sensitivity analysis: ITS model re-fitted on first-differenced series to address spurious regression concern from non-stationary residuals in primary OLS model (general_help_seeking).",
+  "specification": "ΔY(t) = β0 + β1·time + β2·intervention + β3·time_after + ε",
+  "breakpoint": "2022-02-01",
+  "alpha_bonferroni": 0.016666666666666666,
+  "categories": {
+    "general_help_seeking": {
+      "method": "OLS + Newey-West HAC",
+      "n": 95,
+      "adf_on_differenced_series": {
+        "statistic": -4.7148,
+        "p_value": 0.0001,
+        "stationary": true
+      },
+      "durbin_watson": 2.547,
+      "autocorrelation_detected": true,
+      "params": {
+        "beta1_trend": 0.0028,
+        "beta2_level": -0.1642,
+        "beta3_slope": 0.0106
+      },
+      "pvalues": {
+        "beta1_trend": 0.8802,
+        "beta2_level": 0.8568,
+        "beta3_slope": 0.7728
+      },
+      "r_squared": 0.0027,
+      "adf_on_residuals": {
+        "statistic": -4.7562,
+        "p_value": 0.0001,
+        "stationary": true
+      },
+      "significant_level_change": false,
+      "significant_slope_change": false
+    },
+    "evidence_based_treatments": {
+      "method": "OLS + Newey-West HAC",
+      "n": 95,
+      "adf_on_differenced_series": {
+        "statistic": -7.0254,
+        "p_value": 0.0,
+        "stationary": true
+      },
+      "durbin_watson": 2.5493,
+      "autocorrelation_detected": true,
+      "params": {
+        "beta1_trend": 0.0205,
+        "beta2_level": -0.3628,
+        "beta3_slope": 0.019
+      },
+      "pvalues": {
+        "beta1_trend": 0.533,
+        "beta2_level": 0.7759,
+        "beta3_slope": 0.7029
+      },
+      "r_squared": 0.0265,
+      "adf_on_residuals": {
+        "statistic": -6.7173,
+        "p_value": 0.0,
+        "stationary": true
+      },
+      "significant_level_change": false,
+      "significant_slope_change": false
+    },
+    "specific_conditions": {
+      "method": "OLS + Newey-West HAC",
+      "n": 95,
+      "adf_on_differenced_series": {
+        "statistic": -7.1622,
+        "p_value": 0.0,
+        "stationary": true
+      },
+      "durbin_watson": 2.7884,
+      "autocorrelation_detected": true,
+      "params": {
+        "beta1_trend": 0.0206,
+        "beta2_level": -1.2169,
+        "beta3_slope": 0.007
+      },
+      "pvalues": {
+        "beta1_trend": 0.8009,
+        "beta2_level": 0.7572,
+        "beta3_slope": 0.9574
+      },
+      "r_squared": 0.0004,
+      "adf_on_residuals": {
+        "statistic": -5.2533,
+        "p_value": 0.0,
+        "stationary": true
+      },
+      "significant_level_change": false,
+      "significant_slope_change": false
+    }
+  }
+}

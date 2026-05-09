@@ -1,0 +1,29 @@
+{
+  "description": "Sensitivity: Modified Mann-Kendall tests (Hamed-Rao, Yue-Wang) accounting for autocorrelation in the time series. Compared with the standard MK test reported as primary.",
+  "category": "evidence_based_treatments",
+  "n_months": 96,
+  "alpha_bonferroni": 0.016666666666666666,
+  "variants": {
+    "original": {
+      "trend": "increasing",
+      "tau": 0.5996,
+      "p_value": 0.0,
+      "z": 8.6506,
+      "significant_bonferroni": true
+    },
+    "hamed_rao_modified": {
+      "trend": "increasing",
+      "tau": 0.5996,
+      "p_value": 0.0002,
+      "z": 3.7157,
+      "significant_bonferroni": true
+    },
+    "yue_wang_modified": {
+      "trend": "increasing",
+      "tau": 0.5996,
+      "p_value": 0.0,
+      "z": 6.7678,
+      "significant_bonferroni": true
+    }
+  }
+}

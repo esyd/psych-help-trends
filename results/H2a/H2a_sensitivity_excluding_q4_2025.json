@@ -1,0 +1,98 @@
+{
+  "description": "Sensitivity for H2a: tests whether the global trend persists after excluding the Q4 2025 anomaly (already flagged in the article as a likely Google Trends normalisation artefact).",
+  "category": "evidence_based_treatments",
+  "alpha_bonferroni": 0.016666666666666666,
+  "full_period": {
+    "n_months": 96,
+    "date_range": [
+      "2018-01-01",
+      "2025-12-01"
+    ],
+    "ols": {
+      "beta1": 0.1364,
+      "p_value": 0.0,
+      "r_squared": 0.5515,
+      "significant": true
+    },
+    "mk_original": {
+      "trend": "increasing",
+      "tau": 0.5996,
+      "p_value": 0.0,
+      "significant": true
+    },
+    "mk_hamed_rao": {
+      "trend": "increasing",
+      "tau": 0.5996,
+      "p_value": 0.0002,
+      "significant": true
+    },
+    "mk_yue_wang": {
+      "trend": "increasing",
+      "tau": 0.5996,
+      "p_value": 0.0,
+      "significant": true
+    }
+  },
+  "excluding_q4_2025": {
+    "n_months": 93,
+    "date_range": [
+      "2018-01-01",
+      "2025-09-01"
+    ],
+    "ols": {
+      "beta1": 0.1127,
+      "p_value": 0.0,
+      "r_squared": 0.5887,
+      "significant": true
+    },
+    "mk_original": {
+      "trend": "increasing",
+      "tau": 0.5736,
+      "p_value": 0.0,
+      "significant": true
+    },
+    "mk_hamed_rao": {
+      "trend": "increasing",
+      "tau": 0.5736,
+      "p_value": 0.0002,
+      "significant": true
+    },
+    "mk_yue_wang": {
+      "trend": "increasing",
+      "tau": 0.5736,
+      "p_value": 0.0,
+      "significant": true
+    }
+  },
+  "excluding_all_2025": {
+    "n_months": 84,
+    "date_range": [
+      "2018-01-01",
+      "2024-12-01"
+    ],
+    "ols": {
+      "beta1": 0.0979,
+      "p_value": 0.0,
+      "r_squared": 0.4712,
+      "significant": true
+    },
+    "mk_original": {
+      "trend": "increasing",
+      "tau": 0.5037,
+      "p_value": 0.0,
+      "significant": true
+    },
+    "mk_hamed_rao": {
+      "trend": "increasing",
+      "tau": 0.5037,
+      "p_value": 0.0008,
+      "significant": true
+    },
+    "mk_yue_wang": {
+      "trend": "increasing",
+      "tau": 0.5037,
+      "p_value": 0.0,
+      "significant": true
+    }
+  }
+}

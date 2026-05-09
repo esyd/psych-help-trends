@@ -1,0 +1,30 @@
+{
+  "description": "Sensitivity: Modified Mann-Kendall tests (Hamed-Rao, Yue-Wang) on EBT ratio, accounting for autocorrelation. Confirms robustness of the primary null finding.",
+  "outcome": "EBT_ratio = mean(EBT) / mean(general_help_seeking)",
+  "n_months": 96,
+  "n_countries": 15,
+  "alpha_bonferroni": 0.016666666666666666,
+  "variants": {
+    "original": {
+      "trend": "no trend",
+      "tau": -0.1035,
+      "p_value": 0.136,
+      "z": -1.4908,
+      "significant_bonferroni": false
+    },
+    "hamed_rao_modified": {
+      "trend": "no trend",
+      "tau": -0.1035,
+      "p_value": 0.2255,
+      "z": -1.2121,
+      "significant_bonferroni": false
+    },
+    "yue_wang_modified": {
+      "trend": "no trend",
+      "tau": -0.1035,
+      "p_value": 0.0855,
+      "z": -1.7194,
+      "significant_bonferroni": false
+    }
+  }
+}
