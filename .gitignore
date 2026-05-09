@@ -1,34 +1,45 @@
 # Python
 __pycache__/
 *.py[cod]
+*.pyc
 *.egg-info/
 .env
 venv/
 .venv/
 env/
-
-# Logs
-*.log
-
-# OS
-.DS_Store
-Thumbs.db
+.ipynb_checkpoints/
 
 # IDE
 .vscode/
 .idea/
 
+# OS
+.DS_Store
+Thumbs.db
 
-# OSF
+# Logs and temp
+*.log
+*.tmp
+~$*
+
+# OSF (local working file)
 OSF_REGISTRATION.md
 
+# Manuscript working files (kept locally, not pushed to GitHub)
 doc/
 
+# Personal work files (drafts, exports)
+*.docx
+*.pdf
 
-# Data (not committed � too large, reproduced via collect_trends.py)
+# Data (large; reproduced via collect_trends.py)
 data/raw*/
 data/processed/
 
-# But keep predictors
+# Keep predictors (manually curated, small)
 !data/predictors/
 !data/predictors/*.csv
+
+# But explicitly allow documentation in the repo
+!docs/**/*.pdf
+!docs/**/*.docx
