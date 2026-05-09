@@ -1,0 +1,20 @@
+{
+  "data_collection_folder": "raw_20260417_211800",
+  "expected_months": 96,
+  "n_countries_analyzed": 21,
+  "n_categories": 3,
+  "overall": {
+    "mean_pct_complete": 77.8,
+    "min_pct_complete": 4.2,
+    "max_pct_complete": 100.0,
+    "total_keywords_attempted": 1219,
+    "total_keywords_with_data": 808,
+    "total_partial_observations": 0,
+    "total_no_data_keywords": 411
+  },
+  "no_data_by_category": {
+    "evidence_based_treatments": 261,
+    "general_help_seeking": 36,
+    "specific_conditions": 114
+  }
+}

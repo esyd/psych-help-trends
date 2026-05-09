@@ -1,0 +1,412 @@
+country,category,keyword,language
+UA,general_help_seeking,find a therapist,en
+UA,evidence_based_treatments,eye movement desensitization and reprocessing,en
+UA,evidence_based_treatments,acceptance and commitment therapy,en
+UA,evidence_based_treatments,cognitive processing therapy,en
+UA,evidence_based_treatments,prolonged exposure therapy,en
+UA,evidence_based_treatments,interpersonal therapy,en
+UA,evidence_based_treatments,mindfulness-based cognitive therapy,en
+UA,evidence_based_treatments,schema therapy,en
+UA,evidence_based_treatments,prolonged exposure therapy,latin_abbrev
+UA,evidence_based_treatments,IPT therapy,latin_abbrev
+UA,evidence_based_treatments,MBCT,latin_abbrev
+UA,evidence_based_treatments,десенсибилизация и переработка движениями глаз,ru
+UA,evidence_based_treatments,диалектическая поведенческая терапия,ru
+UA,evidence_based_treatments,пролонгированная экспозиция,ru
+UA,evidence_based_treatments,снижение стресса на основе осознанности,ru
+UA,evidence_based_treatments,схема-терапия,ru
+UA,evidence_based_treatments,діалектично-поведінкова терапія,uk
+UA,evidence_based_treatments,майндфулнес-базована когнітивна терапія,uk
+UA,evidence_based_treatments,схема-терапія,uk
+UA,specific_conditions,PTSD treatment,en
+UA,specific_conditions,complex PTSD treatment,en
+UA,specific_conditions,panic attack help,en
+UA,specific_conditions,PTSD treatment,latin_abbrev
+UA,specific_conditions,complex PTSD treatment,latin_abbrev
+UA,specific_conditions,borderline personality disorder treatment,latin_abbrev
+UA,specific_conditions,BPD therapy,latin_abbrev
+UA,specific_conditions,помощь при тревоге,ru
+UA,specific_conditions,ПТСР лечение,ru
+UA,specific_conditions,паническая атака помощь,ru
+UA,specific_conditions,допомога при тривозі,uk
+UA,specific_conditions,комплексний ПТСР,uk
+DE,general_help_seeking,Therapeut online,de
+DE,general_help_seeking,psychische Gesundheit Hilfe,de
+DE,evidence_based_treatments,Desensibilisierung und Verarbeitung durch Augenbewegungen,de
+DE,evidence_based_treatments,Interpersonelle Therapie,de
+DE,evidence_based_treatments,prolonged exposure therapy,en
+DE,evidence_based_treatments,DBT therapy,latin_abbrev
+DE,evidence_based_treatments,CPT therapy,latin_abbrev
+DE,evidence_based_treatments,prolonged exposure therapy,latin_abbrev
+DE,evidence_based_treatments,IPT therapy,latin_abbrev
+DE,specific_conditions,Depressionstherapie,de
+DE,specific_conditions,Borderline-Persönlichkeitsstörung Therapie,de
+FR,evidence_based_treatments,eye movement desensitization and reprocessing,en
+FR,evidence_based_treatments,cognitive processing therapy,en
+FR,evidence_based_treatments,mindfulness-based cognitive therapy,en
+FR,evidence_based_treatments,désensibilisation et retraitement par les mouvements oculaires,fr
+FR,evidence_based_treatments,thérapie de traitement cognitif,fr
+FR,evidence_based_treatments,réduction du stress basée sur la pleine conscience,fr
+FR,evidence_based_treatments,DBT therapy,latin_abbrev
+FR,evidence_based_treatments,CPT therapy,latin_abbrev
+FR,evidence_based_treatments,IPT therapy,latin_abbrev
+FR,specific_conditions,aide attaque de panique,fr
+FR,specific_conditions,borderline personality disorder treatment,latin_abbrev
+FR,specific_conditions,BPD therapy,latin_abbrev
+PL,general_help_seeking,find a therapist,en
+PL,evidence_based_treatments,cognitive processing therapy,en
+PL,evidence_based_treatments,interpersonal therapy,en
+PL,evidence_based_treatments,mindfulness-based stress reduction,en
+PL,evidence_based_treatments,DBT therapy,latin_abbrev
+PL,evidence_based_treatments,CPT therapy,latin_abbrev
+PL,evidence_based_treatments,IPT therapy,latin_abbrev
+PL,evidence_based_treatments,odwrażliwianie i przetwarzanie za pomocą ruchu gałek ocznych,pl
+PL,evidence_based_treatments,terapia przetwarzania poznawczego,pl
+PL,evidence_based_treatments,przedłużona ekspozycja,pl
+PL,evidence_based_treatments,terapia poznawcza oparta na uważności,pl
+PL,evidence_based_treatments,redukcja stresu oparta na uważności,pl
+PL,specific_conditions,complex PTSD treatment,en
+PL,specific_conditions,borderline personality disorder therapy,en
+PL,specific_conditions,complex PTSD treatment,latin_abbrev
+PL,specific_conditions,borderline personality disorder treatment,latin_abbrev
+PL,specific_conditions,BPD therapy,latin_abbrev
+PL,specific_conditions,pomoc atak paniki,pl
+NL,general_help_seeking,geestelijke gezondheid hulp,nl
+NL,evidence_based_treatments,eye movement desensitization and reprocessing,en
+NL,evidence_based_treatments,cognitive processing therapy,en
+NL,evidence_based_treatments,interpersonal therapy,en
+NL,evidence_based_treatments,DBT therapy,latin_abbrev
+NL,evidence_based_treatments,CPT therapy,latin_abbrev
+NL,evidence_based_treatments,IPT therapy,latin_abbrev
+NL,evidence_based_treatments,langdurige blootstelling,nl
+NL,evidence_based_treatments,mindfulnessgebaseerde cognitieve therapie,nl
+NL,evidence_based_treatments,mindfulnessgebaseerde stressreductie,nl
+NL,specific_conditions,BPD therapy,latin_abbrev
+NL,specific_conditions,angstbehandeling,nl
+LV,general_help_seeking,find a therapist,en
+LV,general_help_seeking,psihologs tiešsaistē,lv
+LV,general_help_seeking,консультация психолога,ru
+LV,evidence_based_treatments,dialectical behavior therapy,en
+LV,evidence_based_treatments,acceptance and commitment therapy,en
+LV,evidence_based_treatments,cognitive processing therapy,en
+LV,evidence_based_treatments,prolonged exposure therapy,en
+LV,evidence_based_treatments,interpersonal therapy,en
+LV,evidence_based_treatments,mindfulness-based stress reduction,en
+LV,evidence_based_treatments,schema therapy,en
+LV,evidence_based_treatments,CBT therapy,latin_abbrev
+LV,evidence_based_treatments,DBT therapy,latin_abbrev
+LV,evidence_based_treatments,ACT therapy,latin_abbrev
+LV,evidence_based_treatments,CPT therapy,latin_abbrev
+LV,evidence_based_treatments,prolonged exposure therapy,latin_abbrev
+LV,evidence_based_treatments,MBCT,latin_abbrev
+LV,evidence_based_treatments,MBSR,latin_abbrev
+LV,evidence_based_treatments,EMDR terapija,lv
+LV,evidence_based_treatments,dialektiskā uzvedības terapija,lv
+LV,evidence_based_treatments,pieņemšanas un apņemšanās terapija,lv
+LV,evidence_based_treatments,kognitīvā traumas apstrādes terapija,lv
+LV,evidence_based_treatments,pagarinātā ekspozīcija,lv
+LV,evidence_based_treatments,starppersonu terapija,lv
+LV,evidence_based_treatments,shēmu terapija,lv
+LV,evidence_based_treatments,когнитивно-поведенческая терапия,ru
+LV,evidence_based_treatments,десенсибилизация и переработка движениями глаз,ru
+LV,evidence_based_treatments,диалектическая поведенческая терапия,ru
+LV,evidence_based_treatments,ДПТ,ru
+LV,evidence_based_treatments,терапия принятия и ответственности,ru
+LV,evidence_based_treatments,когнитивная терапия переработки травмы,ru
+LV,evidence_based_treatments,интерперсональная терапия,ru
+LV,specific_conditions,depression therapy,en
+LV,specific_conditions,complex PTSD treatment,en
+LV,specific_conditions,panic attack help,en
+LV,specific_conditions,PTSD therapy,latin_abbrev
+LV,specific_conditions,complex PTSD treatment,latin_abbrev
+LV,specific_conditions,BPD therapy,latin_abbrev
+LV,specific_conditions,помощь при тревоге,ru
+LV,specific_conditions,ПТСР лечение,ru
+LV,specific_conditions,паническая атака помощь,ru
+LV,specific_conditions,расстройство личности лечение,ru
+LT,general_help_seeking,psychological help,en
+LT,general_help_seeking,find a therapist,en
+LT,general_help_seeking,психологическая помощь,ru
+LT,general_help_seeking,консультация психолога,ru
+LT,evidence_based_treatments,eye movement desensitization and reprocessing,en
+LT,evidence_based_treatments,cognitive processing therapy,en
+LT,evidence_based_treatments,prolonged exposure therapy,en
+LT,evidence_based_treatments,interpersonal therapy,en
+LT,evidence_based_treatments,mindfulness-based cognitive therapy,en
+LT,evidence_based_treatments,schema therapy,en
+LT,evidence_based_treatments,DBT therapy,latin_abbrev
+LT,evidence_based_treatments,ACT therapy,latin_abbrev
+LT,evidence_based_treatments,prolonged exposure therapy,latin_abbrev
+LT,evidence_based_treatments,MBCT,latin_abbrev
+LT,evidence_based_treatments,priėmimo ir įsipareigojimo terapija,lt
+LT,evidence_based_treatments,kognityvinė traumos apdorojimo terapija,lt
+LT,evidence_based_treatments,sąmoningumu grįsta kognityvinė terapija,lt
+LT,evidence_based_treatments,sąmoningumu grįstas streso mažinimas,lt
+LT,evidence_based_treatments,schemų terapija,lt
+LT,evidence_based_treatments,EMDR терапия,ru
+LT,specific_conditions,complex PTSD treatment,en
+LT,specific_conditions,panic attack help,en
+LT,specific_conditions,complex PTSD treatment,latin_abbrev
+LT,specific_conditions,PTSS gydymas,lt
+LT,specific_conditions,asmenybės sutrikimo gydymas,lt
+LT,specific_conditions,пограничное расстройство личности,ru
+EE,general_help_seeking,psychological help,en
+EE,general_help_seeking,mental health support,en
+EE,general_help_seeking,find a therapist,en
+EE,general_help_seeking,psühholoog veebis,et
+EE,general_help_seeking,консультация психолога,ru
+EE,evidence_based_treatments,prolonged exposure therapy,en
+EE,evidence_based_treatments,interpersonal therapy,en
+EE,evidence_based_treatments,mindfulness-based cognitive therapy,en
+EE,evidence_based_treatments,mindfulness-based stress reduction,en
+EE,evidence_based_treatments,EMDR teraapia,et
+EE,evidence_based_treatments,dialektiline käitumisteraapia,et
+EE,evidence_based_treatments,aktsepteerimis- ja pühendumisteraapia,et
+EE,evidence_based_treatments,kognitiivne trauma töötlemise teraapia,et
+EE,evidence_based_treatments,pikaajaline kokkupuude,et
+EE,evidence_based_treatments,teadvelolekupõhine kognitiivne teraapia,et
+EE,evidence_based_treatments,teadvelolekupõhine stressivähendamine,et
+EE,evidence_based_treatments,DBT therapy,latin_abbrev
+EE,evidence_based_treatments,CPT therapy,latin_abbrev
+EE,evidence_based_treatments,prolonged exposure therapy,latin_abbrev
+EE,evidence_based_treatments,IPT therapy,latin_abbrev
+EE,evidence_based_treatments,MBCT,latin_abbrev
+EE,evidence_based_treatments,MBSR,latin_abbrev
+EE,evidence_based_treatments,когнитивно-поведенческая терапия,ru
+EE,evidence_based_treatments,EMDR терапия,ru
+EE,evidence_based_treatments,ДПТ,ru
+EE,evidence_based_treatments,когнитивная терапия переработки травмы,ru
+EE,evidence_based_treatments,пролонгированная экспозиция,ru
+EE,evidence_based_treatments,интерперсональная терапия,ru
+EE,evidence_based_treatments,схема-терапия,ru
+EE,specific_conditions,PTSD therapy,latin_abbrev
+EE,specific_conditions,complex PTSD treatment,latin_abbrev
+EE,specific_conditions,borderline personality disorder treatment,latin_abbrev
+EE,specific_conditions,BPD therapy,latin_abbrev
+EE,specific_conditions,помощь при тревоге,ru
+EE,specific_conditions,лечение депрессии,ru
+EE,specific_conditions,комплексное ПТСР,ru
+EE,specific_conditions,паническая атака помощь,ru
+US,evidence_based_treatments,DBT therapy,latin_abbrev
+US,evidence_based_treatments,CPT therapy,latin_abbrev
+GB,evidence_based_treatments,DBT therapy,latin_abbrev
+GB,evidence_based_treatments,CPT therapy,latin_abbrev
+AU,evidence_based_treatments,DBT therapy,latin_abbrev
+AU,evidence_based_treatments,ACT therapy,latin_abbrev
+AU,evidence_based_treatments,CPT therapy,latin_abbrev
+CA,evidence_based_treatments,DBT therapy,latin_abbrev
+CA,evidence_based_treatments,CPT therapy,latin_abbrev
+GE,general_help_seeking,psychological help,en
+GE,general_help_seeking,mental health support,en
+GE,evidence_based_treatments,eye movement desensitization and reprocessing,en
+GE,evidence_based_treatments,acceptance and commitment therapy,en
+GE,evidence_based_treatments,CBT therapy,latin_abbrev
+GE,evidence_based_treatments,CPT therapy,latin_abbrev
+GE,evidence_based_treatments,prolonged exposure therapy,latin_abbrev
+GE,evidence_based_treatments,IPT therapy,latin_abbrev
+GE,evidence_based_treatments,MBCT,latin_abbrev
+GE,evidence_based_treatments,MBSR,latin_abbrev
+GE,evidence_based_treatments,когнитивно-поведенческая терапия,ru
+GE,evidence_based_treatments,EMDR терапия,ru
+GE,evidence_based_treatments,десенсибилизация и переработка движениями глаз,ru
+GE,evidence_based_treatments,диалектическая поведенческая терапия,ru
+GE,evidence_based_treatments,ДПТ,ru
+GE,evidence_based_treatments,когнитивная терапия переработки травмы,ru
+GE,evidence_based_treatments,пролонгированная экспозиция,ru
+GE,evidence_based_treatments,интерперсональная терапия,ru
+GE,specific_conditions,depression therapy,en
+GE,specific_conditions,PTSD treatment,en
+GE,specific_conditions,complex PTSD treatment,en
+GE,specific_conditions,PTSD treatment,latin_abbrev
+GE,specific_conditions,PTSD therapy,latin_abbrev
+GE,specific_conditions,complex PTSD treatment,latin_abbrev
+GE,specific_conditions,borderline personality disorder treatment,latin_abbrev
+GE,specific_conditions,лечение депрессии,ru
+GE,specific_conditions,ПТСР лечение,ru
+GE,specific_conditions,комплексное ПТСР,ru
+GE,specific_conditions,расстройство личности лечение,ru
+AM,general_help_seeking,find a therapist,en
+AM,general_help_seeking,online therapy,en
+AM,general_help_seeking,психолог онлайн,ru
+AM,general_help_seeking,консультация психолога,ru
+AM,general_help_seeking,психотерапевт,ru
+AM,evidence_based_treatments,cognitive behavioral therapy,en
+AM,evidence_based_treatments,dialectical behavior therapy,en
+AM,evidence_based_treatments,acceptance and commitment therapy,en
+AM,evidence_based_treatments,cognitive processing therapy,en
+AM,evidence_based_treatments,prolonged exposure therapy,en
+AM,evidence_based_treatments,mindfulness-based cognitive therapy,en
+AM,evidence_based_treatments,mindfulness-based stress reduction,en
+AM,evidence_based_treatments,schema therapy,en
+AM,evidence_based_treatments,EMDR therapy,latin_abbrev
+AM,evidence_based_treatments,DBT therapy,latin_abbrev
+AM,evidence_based_treatments,ACT therapy,latin_abbrev
+AM,evidence_based_treatments,CPT therapy,latin_abbrev
+AM,evidence_based_treatments,когнитивно-поведенческая терапия,ru
+AM,evidence_based_treatments,десенсибилизация и переработка движениями глаз,ru
+AM,evidence_based_treatments,диалектическая поведенческая терапия,ru
+AM,evidence_based_treatments,майндфулнес-когнитивная терапия,ru
+AM,evidence_based_treatments,схема-терапия,ru
+AM,specific_conditions,anxiety treatment,en
+AM,specific_conditions,depression therapy,en
+AM,specific_conditions,complex PTSD treatment,en
+AM,specific_conditions,panic attack help,en
+AM,specific_conditions,complex PTSD treatment,latin_abbrev
+AM,specific_conditions,borderline personality disorder treatment,latin_abbrev
+AM,specific_conditions,BPD therapy,latin_abbrev
+AM,specific_conditions,помощь при тревоге,ru
+AM,specific_conditions,ПТСР лечение,ru
+AM,specific_conditions,комплексное ПТСР,ru
+AZ,general_help_seeking,psychological help,en
+AZ,general_help_seeking,find a therapist,en
+AZ,general_help_seeking,психологическая помощь,ru
+AZ,general_help_seeking,психолог онлайн,ru
+AZ,general_help_seeking,консультация психолога,ru
+AZ,evidence_based_treatments,cognitive behavioral therapy,en
+AZ,evidence_based_treatments,acceptance and commitment therapy,en
+AZ,evidence_based_treatments,cognitive processing therapy,en
+AZ,evidence_based_treatments,prolonged exposure therapy,en
+AZ,evidence_based_treatments,mindfulness-based cognitive therapy,en
+AZ,evidence_based_treatments,mindfulness-based stress reduction,en
+AZ,evidence_based_treatments,CBT therapy,latin_abbrev
+AZ,evidence_based_treatments,EMDR therapy,latin_abbrev
+AZ,evidence_based_treatments,CPT therapy,latin_abbrev
+AZ,evidence_based_treatments,prolonged exposure therapy,latin_abbrev
+AZ,evidence_based_treatments,IPT,latin_abbrev
+AZ,evidence_based_treatments,IPT therapy,latin_abbrev
+AZ,evidence_based_treatments,MBSR,latin_abbrev
+AZ,evidence_based_treatments,ДПТ,ru
+AZ,evidence_based_treatments,терапия принятия и ответственности,ru
+AZ,evidence_based_treatments,когнитивная терапия переработки травмы,ru
+AZ,evidence_based_treatments,пролонгированная экспозиция,ru
+AZ,specific_conditions,PTSD treatment,en
+AZ,specific_conditions,panic attack help,en
+AZ,specific_conditions,borderline personality disorder therapy,en
+AZ,specific_conditions,PTSD treatment,latin_abbrev
+AZ,specific_conditions,PTSD therapy,latin_abbrev
+AZ,specific_conditions,borderline personality disorder treatment,latin_abbrev
+AZ,specific_conditions,помощь при тревоге,ru
+AZ,specific_conditions,ПТСР лечение,ru
+AZ,specific_conditions,комплексное ПТСР,ru
+AZ,specific_conditions,паническая атака помощь,ru
+KZ,general_help_seeking,find a therapist,en
+KZ,evidence_based_treatments,eye movement desensitization and reprocessing,en
+KZ,evidence_based_treatments,acceptance and commitment therapy,en
+KZ,evidence_based_treatments,interpersonal therapy,en
+KZ,evidence_based_treatments,mindfulness-based cognitive therapy,en
+KZ,evidence_based_treatments,mindfulness-based stress reduction,en
+KZ,evidence_based_treatments,EMDR therapy,latin_abbrev
+KZ,evidence_based_treatments,DBT therapy,latin_abbrev
+KZ,evidence_based_treatments,CPT therapy,latin_abbrev
+KZ,evidence_based_treatments,IPT,latin_abbrev
+KZ,evidence_based_treatments,MBCT,latin_abbrev
+KZ,evidence_based_treatments,MBSR,latin_abbrev
+KZ,evidence_based_treatments,терапия принятия и ответственности,ru
+KZ,evidence_based_treatments,интерперсональная терапия,ru
+KZ,evidence_based_treatments,майндфулнес-когнитивная терапия,ru
+KZ,evidence_based_treatments,снижение стресса на основе осознанности,ru
+KZ,specific_conditions,anxiety treatment,en
+KZ,specific_conditions,depression therapy,en
+KZ,specific_conditions,PTSD treatment,en
+KZ,specific_conditions,complex PTSD treatment,en
+KZ,specific_conditions,помощь при тревоге,ru
+KZ,specific_conditions,комплексное ПТСР,ru
+KZ,specific_conditions,паническая атака помощь,ru
+UZ,general_help_seeking,find a therapist,en
+UZ,general_help_seeking,консультация психолога,ru
+UZ,evidence_based_treatments,eye movement desensitization and reprocessing,en
+UZ,evidence_based_treatments,dialectical behavior therapy,en
+UZ,evidence_based_treatments,acceptance and commitment therapy,en
+UZ,evidence_based_treatments,cognitive processing therapy,en
+UZ,evidence_based_treatments,mindfulness-based stress reduction,en
+UZ,evidence_based_treatments,schema therapy,en
+UZ,evidence_based_treatments,CBT therapy,latin_abbrev
+UZ,evidence_based_treatments,EMDR therapy,latin_abbrev
+UZ,evidence_based_treatments,DBT therapy,latin_abbrev
+UZ,evidence_based_treatments,ACT therapy,latin_abbrev
+UZ,evidence_based_treatments,IPT therapy,latin_abbrev
+UZ,evidence_based_treatments,MBCT,latin_abbrev
+UZ,evidence_based_treatments,MBSR,latin_abbrev
+UZ,evidence_based_treatments,когнитивно-поведенческая терапия,ru
+UZ,evidence_based_treatments,EMDR терапия,ru
+UZ,evidence_based_treatments,десенсибилизация и переработка движениями глаз,ru
+UZ,evidence_based_treatments,терапия принятия и ответственности,ru
+UZ,evidence_based_treatments,когнитивная терапия переработки травмы,ru
+UZ,evidence_based_treatments,пролонгированная экспозиция,ru
+UZ,evidence_based_treatments,интерперсональная терапия,ru
+UZ,specific_conditions,anxiety treatment,en
+UZ,specific_conditions,depression therapy,en
+UZ,specific_conditions,PTSD treatment,en
+UZ,specific_conditions,complex PTSD treatment,en
+UZ,specific_conditions,помощь при тревоге,ru
+UZ,specific_conditions,лечение депрессии,ru
+UZ,specific_conditions,ПТСР лечение,ru
+MD,general_help_seeking,mental health support,en
+MD,general_help_seeking,find a therapist,en
+MD,general_help_seeking,психолог онлайн,ru
+MD,general_help_seeking,консультация психолога,ru
+MD,evidence_based_treatments,cognitive behavioral therapy,en
+MD,evidence_based_treatments,eye movement desensitization and reprocessing,en
+MD,evidence_based_treatments,dialectical behavior therapy,en
+MD,evidence_based_treatments,prolonged exposure therapy,en
+MD,evidence_based_treatments,interpersonal therapy,en
+MD,evidence_based_treatments,mindfulness-based stress reduction,en
+MD,evidence_based_treatments,schema therapy,en
+MD,evidence_based_treatments,CBT therapy,latin_abbrev
+MD,evidence_based_treatments,EMDR,latin_abbrev
+MD,evidence_based_treatments,EMDR therapy,latin_abbrev
+MD,evidence_based_treatments,DBT,latin_abbrev
+MD,evidence_based_treatments,DBT therapy,latin_abbrev
+MD,evidence_based_treatments,ACT therapy,latin_abbrev
+MD,evidence_based_treatments,prolonged exposure therapy,latin_abbrev
+MD,evidence_based_treatments,IPT,latin_abbrev
+MD,evidence_based_treatments,MBCT,latin_abbrev
+MD,evidence_based_treatments,MBSR,latin_abbrev
+MD,evidence_based_treatments,КПТ,ru
+MD,evidence_based_treatments,EMDR терапия,ru
+MD,evidence_based_treatments,десенсибилизация и переработка движениями глаз,ru
+MD,evidence_based_treatments,диалектическая поведенческая терапия,ru
+MD,evidence_based_treatments,интерперсональная терапия,ru
+MD,evidence_based_treatments,снижение стресса на основе осознанности,ru
+MD,evidence_based_treatments,схема-терапия,ru
+MD,specific_conditions,anxiety treatment,en
+MD,specific_conditions,PTSD treatment,en
+MD,specific_conditions,borderline personality disorder therapy,en
+MD,specific_conditions,PTSD treatment,latin_abbrev
+MD,specific_conditions,borderline personality disorder treatment,latin_abbrev
+MD,specific_conditions,BPD therapy,latin_abbrev
+MD,specific_conditions,помощь при тревоге,ru
+MD,specific_conditions,комплексное ПТСР,ru
+MD,specific_conditions,паническая атака помощь,ru
+MD,specific_conditions,расстройство личности лечение,ru
+IL,evidence_based_treatments,acceptance and commitment therapy,en
+IL,evidence_based_treatments,cognitive processing therapy,en
+IL,evidence_based_treatments,prolonged exposure therapy,en
+IL,evidence_based_treatments,mindfulness-based cognitive therapy,en
+IL,evidence_based_treatments,mindfulness-based stress reduction,en
+IL,evidence_based_treatments,CPT therapy,latin_abbrev
+IL,evidence_based_treatments,prolonged exposure therapy,latin_abbrev
+IL,evidence_based_treatments,IPT therapy,latin_abbrev
+IL,specific_conditions,complex PTSD treatment,en
+IL,specific_conditions,panic attack help,en
+IL,specific_conditions,complex PTSD treatment,latin_abbrev
+IL,specific_conditions,borderline personality disorder treatment,latin_abbrev
+JP,evidence_based_treatments,eye movement desensitization and reprocessing,en
+JP,evidence_based_treatments,cognitive processing therapy,en
+JP,evidence_based_treatments,prolonged exposure therapy,en
+JP,evidence_based_treatments,DBT therapy,latin_abbrev
+JP,evidence_based_treatments,CPT therapy,latin_abbrev
+JP,evidence_based_treatments,prolonged exposure therapy,latin_abbrev
+JP,evidence_based_treatments,IPT therapy,latin_abbrev
+JP,specific_conditions,panic attack help,en
+JP,specific_conditions,borderline personality disorder therapy,en
+JP,specific_conditions,borderline personality disorder treatment,latin_abbrev
+JP,specific_conditions,BPD therapy,latin_abbrev
+BR,evidence_based_treatments,eye movement desensitization and reprocessing,en
+BR,evidence_based_treatments,cognitive processing therapy,en
+BR,evidence_based_treatments,mindfulness-based cognitive therapy,en
+BR,evidence_based_treatments,DBT therapy,latin_abbrev
+BR,evidence_based_treatments,CPT therapy,latin_abbrev
+BR,evidence_based_treatments,IPT therapy,latin_abbrev
+BR,specific_conditions,panic attack help,en
+BR,specific_conditions,BPD therapy,latin_abbrev
