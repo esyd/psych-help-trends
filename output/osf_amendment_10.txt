@@ -1,0 +1,44 @@
+Amendment 10: Sampling Variability Analysis (Added November 2026)
+
+Rationale:
+During peer review, the editor raised a concern regarding the reproducibility of Google Trends data due to its known sampling variability. Specifically, repeated queries for the same search term, country, and time period may yield slightly different Relative Search Volume (RSV) values because Google Trends returns data based on a sample rather than the full population of search queries. To assess the extent to which this sampling variability could affect the study's findings, we conducted a systematic robustness check by repeating the full data collection procedure and comparing the results.
+
+Procedure:
+Data were collected on three occasions using the identical automated script (01_collect_google_trends.py), keyword list, country set, and configuration parameters:
+  - Pull 1 (original): 17 April 2026, 21:18 UTC
+  - Pull 2 (replication): 5 November 2026, 06:59 UTC
+  - Pull 3 (replication): 5 November 2026, 09:03 UTC
+
+Pulls 2 and 3 were conducted approximately 2 hours apart on the same day to assess short-term (same-day) variability, while comparison of Pull 1 with Pulls 2 and 3 assessed longer-term (approximately 7-month) variability. All three pulls used pytrends v4.9.2 and queried the same 21 countries, timeframe (2018-01-01 to 2025-12-31), and keyword-language combinations. File hashes for keywords.json and config.py were identical across all three pulls, confirming configuration equivalence.
+
+All pairwise combinations of the three pulls were computed for each keyword-language-country series that contained non-zero values in both members of the pair, yielding 189 pairwise comparisons (63 same-day, 126 cross-time).
+
+Metrics:
+For each pairwise comparison, we computed:
+  1. Mean Absolute Difference (MAD) — average absolute difference in RSV values across all monthly time points
+  2. Root Mean Square Difference (RMSD) — square root of the mean squared difference, emphasizing larger deviations
+  3. Pearson correlation coefficient (r) — temporal pattern similarity between the two series
+
+Results:
+Overall (N = 189 pairwise comparisons):
+  - Median MAD = 0.65 RSV points (IQR: 0.22–1.18; range: 0.00–3.25)
+  - Median RMSD = 1.21 RSV points (IQR: 0.44–2.50; range: 0.00–4.82)
+  - Median Pearson r = 0.951 (IQR: 0.676–0.995; range: −0.068–1.000)
+
+Same-day comparisons (n = 63; ~2 hours apart):
+  - Median MAD = 0.13 RSV points (IQR: 0.07–0.30)
+  - Median RMSD = 0.45 RSV points (IQR: 0.20–0.81)
+  - Median Pearson r = 0.993 (IQR: 0.972–0.999)
+
+Cross-time comparisons (n = 126; ~7 months apart):
+  - Median MAD = 0.97 RSV points (IQR: 0.61–1.47)
+  - Median RMSD = 1.92 RSV points (IQR: 0.91–3.05)
+  - Median Pearson r = 0.807 (IQR: 0.496–0.980)
+
+Variability was lowest for the general help-seeking category (median MAD = 0.35) and highest for specific conditions (median MAD = 0.88). Among countries, large-population countries with higher search volumes (e.g., Brazil, France, Poland, United States) showed the lowest variability, while smaller countries (e.g., Estonia, Lithuania, Moldova) showed higher variability, consistent with Google's sampling procedure producing noisier estimates for lower-volume queries.
+
+Interpretation:
+Sampling variability was minimal (median MAD = 0.65, well below 3 RSV points) and temporal patterns were highly stable (median r = 0.951). Same-day variability was negligible (median MAD = 0.13, r = 0.993), while cross-time variability was somewhat higher (median MAD = 0.97, r = 0.807), likely reflecting both sampling variability and genuine changes in search behavior over the 7-month interval. These results support the reliability of the Google Trends data used in the study.
+
+Data and code availability:
+The raw data from all three pulls, the comparison script (10_repeated_pulls_comparison.ipynb), and the resulting figures are deposited in the project's OSF repository and GitHub repository (https://github.com/esyd/psych-help-trends).
